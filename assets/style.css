@@ -557,3 +557,23 @@ header .main_shade {
     width: 240px;
     margin-top: 10px;
 }
+
+.partner_articel{
+    background: rgba(53, 51, 52, 1);
+    background-image: url("./img/stars\ 2.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 133px;
+}
+
+.partner_description{
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 40px;
+}
