@@ -44,9 +44,10 @@ nav {
 } 
 
 
+
 .bi-circle-fill{
     font-size: 10px;
-    color: rgb(15, 239, 15);
+    color: rgb(12, 241, 12);
 }
 
 .backDark{
@@ -63,6 +64,7 @@ nav {
     z-index: 5;
     left: 110px;
     top: 12px;
+    cursor: pointer;
 }
 
 .textMarketing{
@@ -75,6 +77,7 @@ nav {
     z-index: 5;
     left: 250px;
     top: 12px;
+    cursor: pointer;
 }
 
 .logoEllips{
@@ -115,10 +118,12 @@ nav {
     font-weight: 700;
     line-height: normal;
     transform: rotate(-21.831deg);
+    cursor: pointer;
 }
 
 .spanLange {
     left: 69px;
+    cursor: pointer;
 }
 
 .redEllipse{
@@ -199,7 +204,7 @@ main {
 }
 
 .reference_section {
-    width: 198px;
+    width: 205px;
     height: 69px;
     flex-shrink: 0;
     border-radius: 10px 10px 10px 0px;
@@ -259,6 +264,9 @@ header .round_one  {
     border-radius: 462px;
     background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.99) 100%);
     box-shadow: 0px 0px 28px 14px #D9D9D9 inset;
+    position: absolute;
+    top: 113px;
+    left: 113px;
 }
 
 header .main_shade {
@@ -269,13 +277,17 @@ header .main_shade {
     background: rgba(0, 0, 0, 0.10);
     filter: blur(10.5px);
     position: absolute;
-    
+    top: 808px;
+    left: 480px;
 }
 
 .round_two img {
     width: 100px;
     height: 74.586px;
     flex-shrink: 0;
+    position: absolute;
+    top: 101px;
+    left: 181px;
 }
 
 .round_two p {
@@ -286,4 +298,16 @@ header .main_shade {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    position: absolute;
+    top: 187px;
+}
+
+
+.services{
+    background: rgba(30, 28, 29, 0.90);
+    background-image: url("./img/STARS.svg");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 691px;
 }
