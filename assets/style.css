@@ -135,6 +135,9 @@ nav {
     left: 40px;
 }
 
+.digitalMarketing_p {
+    cursor: pointer;
+}
 
 .spanLange .lang {
     left: 10px;
@@ -224,6 +227,7 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
 }
 
 .reference_logo {
@@ -310,4 +314,246 @@ header .main_shade {
     background-repeat: no-repeat;
     background-size: cover;
     height: 691px;
+    padding-top: 47px;
+}
+.global_row {
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+
+.description_section{
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-left: 70px;
+}
+
+.servise_p {
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+    margin-left: 70px;
+}
+
+
+.services .col-6 .articel_col {
+    width: 258px;
+    height: 30px;
+    border-radius: 5px;
+    background: #0F0F0F;
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 0;
+}
+
+.services .col-6 .description_col {
+    color: #D9D9D9;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 258px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.services .col-6  .col_p {
+    width: 251px;
+    color: #D9D9D9;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 3px;
+}
+
+.detailed_btn {
+    width: 258px;
+    height: 30px;
+    border-radius: 5px;
+    background: #961616;
+    text-align: center;
+    padding: 5px 0;
+    border: none;
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.btn_three {
+    margin-top: 16px;
+}
+
+.services_img {
+    top: 83px;
+}
+.services_paragraf {
+    color: #FFF; 
+    font-family: 'Nunito', sans-serif;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    right: 320px;
+    top: 125px;
+}
+
+.services_section_paragraf {
+    margin-top: 43px;
+    width: 396px;
+    color: #C3C3C3;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.numbers_portfolio{
+    margin-top: 10px;
+    padding: 56px 0;
+}
+
+.span_decript {
+    color: #0F0F0F;
+    text-align: right;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 108px;
+    margin-top: 10px;
+}
+
+.number_p{
+    color: #0F0F0F;
+    text-align: right;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 173px;
+}
+
+
+.col_number{
+    width: 89px;
+    color: #0F0F0F;
+    text-align: right;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px; 
+}
+
+
+.col_paragraf {
+    color: #0F0F0F;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 189px;
+}
+
+.col_paragraf_1{
+    width: 195px;
+    color: #0F0F0F;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.col_number_img {
+    width: 29.231px;
+    height: 40px;
+    margin-top: 12px;
+}
+
+
+.number_class_four{
+    width: 109px;
+    color: #0F0F0F;
+    text-align: right;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.number_img_four{
+    margin-left: 12px;
+}
+
+.nubmer_decriptio_four{
+    width: 168px;
+    color: #0F0F0F;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.portfolio_section {
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.90);;
+}
+
+.portifolio_description_section{
+    padding-top: 57px;
+}
+
+
+.lorem_articel{
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.lorem_description{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 240px;
+    margin-top: 10px;
 }
