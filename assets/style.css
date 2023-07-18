@@ -577,3 +577,99 @@ header .main_shade {
     text-transform: capitalize;
     padding: 40px;
 }
+
+.partner_form_section {
+    width: 1440px;
+    height: 483px;
+    background: rgba(0, 0, 0, 0.90);;
+}
+.patner_pragraf {
+    margin-top: 96px;
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.user_question{
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.user_respons{
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.callBtn {
+    position: absolute;
+    top: 205px;
+    right: 10px;
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 16px;
+    border-radius: 3px;
+    background: #E0144C;
+    border: none;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #FFF;
+}
+form label {
+    margin-top: 25px;
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+form .col-3 input {
+    color: rgba(0, 0, 0, 0.20);
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 12px 19px;
+    gap: 10px;
+}
+
+.sumbitBtn{
+    position: absolute;
+    top: 126px;
+    right: 10px;
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 16px;
+    border-radius: 3px;
+    background: #E0144C;
+    border: none;
+}
+
+
+
