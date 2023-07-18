@@ -671,5 +671,90 @@ form .col-3 input {
     border: none;
 }
 
+.main_logo_footer{
+    margin-top: 0;
+    margin-bottom: 53px;
+}
+
+.main_footer{
+    margin-top: 44px;
+    margin-bottom: 48px;
+}
+
+.office_location{
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.office_city {
+    margin-top: 5px;
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 269px;
+    margin-bottom: 0;
+}
 
 
+.office_tel{
+    margin-top: 20px;
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.office_tel_number{
+    margin-top: 0px;
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_nav_item{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.footer_nav_item .fotter_nav_items_link{
+    margin-top: 8px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
+
+.footer_low {
+    height: 83px;
+    background: rgba(0, 0, 0, 0.07);
+}
+
+.footer_low .col-4, .footer_low .col-2 {
+    padding: 30px 0;
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
