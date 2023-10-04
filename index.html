@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <div class="container popup">
+    <div class="container">
         <div class="row justify-content-center">
             <div class="col-3">
-                <div class="card popup">
+                <div id="popup" class="card popup">
                     <div class="img_tick">
                         <img src="assets/img/png-clipart-check-mark-tick-green-tick-mark-angle-leaf-removebg-preview.png" alt="tick_img">
                     
@@ -21,7 +21,7 @@
                     <p class="title p-1 mt-3 text-secondary">
                         Your information has been received and the call center will contact you within 24 hours
                     </p>
-                    <button type="submit" class="ok_btn m-3 btn">Ok</button>
+                    <button onclick="close_pop()" type="submit" class="ok_btn m-3 btn">Ok</button>
                 </div>
             </div>
         </div>
@@ -320,15 +320,15 @@
                     <div class="row justify-content-between">
                         <div class="col-3">
                             <label for="username">Имя *</label>
-                            <input class="inputName w-100" name="data[Customer]" type="text" placeholder="Ваше имя">
+                            <input class="inputName w-100 input_name" name="data[Customer]" type="text" placeholder="Ваше имя">
                         </div>
                         <div class="col-3">
                             <label for="userPhone">Телефон *</label>
-                            <input class="inputName w-100" name="data[Phone]" type="text" placeholder="Ваш телефонний номер">
+                            <input class="inputName w-100 input_phone" name="data[Phone]" type="text" placeholder="Ваш телефонний номер">
                         </div>
                         <div class="col-3 position-relative">
                             <label for="company">Компания *</label>
-                            <input class="inputName w-100" name="data[Company]" type="text" placeholder="Ваша компания">
+                            <input class="inputName w-100 input_company" name="data[Company]" type="text" placeholder="Ваша компания">
                             <button type="submit" class="sumbitBtn">Отправить</button>
                         </div>
                     </div>

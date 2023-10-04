@@ -791,10 +791,18 @@ form .col-3 input {
     text-align: center;
     z-index: 11;
     visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
 }
 
 .popup .ok_btn {
     background-color: rgb(12, 241, 12);
     outline: none;
     box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+}
+
+.open-pup {
+    position: fixed;
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
 }
