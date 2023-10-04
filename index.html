@@ -9,6 +9,23 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+    <div class="container popup">
+        <div class="row justify-content-center">
+            <div class="col-3">
+                <div class="card popup">
+                    <div class="img_tick">
+                        <img src="assets/img/png-clipart-check-mark-tick-green-tick-mark-angle-leaf-removebg-preview.png" alt="tick_img">
+                    
+                    </div>
+                    <h2 class="mt-3">Thank You!</h2>
+                    <p class="title p-1 mt-3 text-secondary">
+                        Your information has been received and the call center will contact you within 24 hours
+                    </p>
+                    <button type="submit" class="ok_btn m-3 btn">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="main" class="DigitialMarketing">
         <header>
             <!-- Navbar section start -->
@@ -71,7 +88,7 @@
                         <img class="greenEllipse position-absolute" src="assets/img/Ellipse 17.png" alt="">
                         <i class="bi bi-telephone position-absolute text-white"></i>
                         <img class="position-absolute tel_icon" src="assets/img/Vector (2).svg" alt="">
-                        <p class="call position-absolute">call</p>
+                        <a href="tel:+99894853117" class="call position-absolute text-decoration-none">call</a>
                     </span>
                     <span class="spanLange position-absolute">
                         <img src="assets/img/Rectangle 36.png" alt="">
@@ -293,26 +310,26 @@
                         </p>
                     </div>
                     <div class="col-3 position-relative">
-                        <button class="callBtn">Позвонить</button>
+                        <a href="tel:+99894853117" class="callBtn text-decoration-none">Позвонить</a>
                     </div>
                 </div>
                 <div class="line">
 
                 </div>
-                <form class="w-100" action="">
+                <form id="sheetdb-form" class="w-100" action="https://sheetdb.io/api/v1/oyoyc0dap8rs8" method="post">
                     <div class="row justify-content-between">
                         <div class="col-3">
                             <label for="username">Имя *</label>
-                            <input class="inputName w-100" type="text" placeholder="Ваше имя">
+                            <input class="inputName w-100" name="data[Customer]" type="text" placeholder="Ваше имя">
                         </div>
                         <div class="col-3">
                             <label for="userPhone">Телефон *</label>
-                            <input class="inputName w-100" type="number" placeholder="Ваш телефонний номер">
+                            <input class="inputName w-100" name="data[Phone]" type="text" placeholder="Ваш телефонний номер">
                         </div>
                         <div class="col-3 position-relative">
                             <label for="company">Компания *</label>
-                            <input class="inputName w-100" type="text" placeholder="Ваша компания">
-                            <button class="sumbitBtn">Отправить</button>
+                            <input class="inputName w-100" name="data[Company]" type="text" placeholder="Ваша компания">
+                            <button type="submit" class="sumbitBtn">Отправить</button>
                         </div>
                     </div>
                 </form>
@@ -407,4 +424,5 @@
             alert("This Sidebar")
         }
     </script>
+    <script src="main.js"></script>
 </html>

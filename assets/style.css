@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100vw;
     min-height: 100vh;
@@ -655,6 +660,10 @@ form .col-3 input {
     gap: 10px;
 }
 
+.inputName::placeholder {
+    color: black;
+}
+
 .sumbitBtn{
     position: absolute;
     top: 126px;
@@ -757,4 +766,35 @@ form .col-3 input {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.popup .img_tick {
+    display: flex;
+    justify-content: center;
+}
+
+.popup img {
+    width: 130px;
+    margin-top: -3rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+}
+.popup {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    z-index: 11;
+    visibility: hidden;
+}
+
+.popup .ok_btn {
+    background-color: rgb(12, 241, 12);
+    outline: none;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
 }
